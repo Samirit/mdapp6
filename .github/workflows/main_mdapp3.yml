@@ -22,12 +22,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Create and start virtual environment
-        run: |
-          python -m venv venv
+      - name: Install pipenv
+        run: pip install pipenv
+      - name: Install dependencies
+        run: pipenv install
       - name: Activate virtual environment
-        run: |
-          source venv/bin/activate
+        run: pipenv shell
 
       
       - name: Install dependencies
