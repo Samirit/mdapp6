@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'mdapp4'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_55E3A72232064D54BBABF930B39CAE15 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0842555E2677483785BB57C1F18B1E8D }}
