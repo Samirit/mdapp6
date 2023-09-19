@@ -61,3 +61,4 @@ jobs:
           app-name: 'mdapp3'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5C413586654240218B1676383F99BF2B }}
+          command: 'gunicorn app:app'
